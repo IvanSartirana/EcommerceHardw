@@ -320,14 +320,8 @@ color: rgb(51, 49, 77) ;
     font-size: 15px;
     color: rgb(51, 49, 77)
 }
+ 
 
-iframe{
-    display: flex;
-    float: inline-end;
-    width: 30rem;
-    margin-top: 4rem;
-    margin-right: 4rem;  
-}
 
 .headerLocation{
 
@@ -341,6 +335,53 @@ iframe{
 
 }
 
+
+.filters{
+
+float: left;
+
+}
+
+.cleanVid{
+
+    width: 1000px;
+    height: 600px;
+    margin-top: 40px;
+
+}
+
+
+.filtList a{
+
+    text-decoration: none;
+    color: #fbfbfb;
+
+}
+
+
+ul{
+
+    list-style: none;
+}
+
+.filters a:hover{
+    color: rgb(216, 125, 20);
+}
+
+select{
+
+    border: none;
+    margin-bottom: 20px;
+    font-size: 1em;
+    background-color: rgb(216, 125, 20);
+    color: #fbfbfb;
+    margin-left: 20px;
+}
+
+span{
+    margin-left: 20px;
+    color: white;
+}
 
 
 
@@ -388,6 +429,13 @@ iframe{
 
         margin:auto
     }
+
+    .filters{
+
+        text-align: center ;
+        margin-top: 20px;
+    }
+
 
 }
 
