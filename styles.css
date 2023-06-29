@@ -265,8 +265,8 @@ footer{
 
 
 form{
-    width: 35rem; 
-  height: auto;
+    width: 40%; 
+  height: 30%;
   margin: 80px auto;
   border-radius: 10px;  
   padding-top: 30px;
@@ -275,8 +275,10 @@ form{
   padding-left: 30px; 
   border-color: rgb(216, 125, 20) ;
   border-style: solid;
+  display: flex;
   
 }
+
 
 
 form label, input{
@@ -307,6 +309,17 @@ label{
 
     width: 20rem;
     
+}
+
+
+iframe{
+
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items:center;
+    
+
 }
 
 .formTitle{
@@ -349,6 +362,7 @@ float: left;
     margin-top: 40px;
 
 }
+
 
 
 .filtList a{
