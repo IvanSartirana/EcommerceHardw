@@ -450,14 +450,58 @@ span{
         margin-top: 20px;
     }
 
+    .form{
+
+        width: 60%;
+
+    }
+
+    div label, div input{
+
+        width: 60%;
+        font-size: 10px;
+    }
+
+    .form h3{
+
+        font-size: 10px;
+
+    }
+
+
+    .form h1{
+
+        font-size: 10px;
+
+    }
+
+    .form p{
+
+        font-size: 10px;
+
+    }
 
 }
+
+
+
+
 
 @media (width < 415px) {
     .products {
       display: grid;
       grid-template-columns: 1fr;
       justify-items: center;
+
+
+
+    }
+
+    header input{
+
+        margin-right: 100px;
+        
+
     }
 
     footer{
