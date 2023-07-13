@@ -1,0 +1,156 @@
+.navBar{
+    background-color:$Orange;
+    width: 100%;
+    justify-content: space-between;
+    
+    
+}
+
+.navBar a:hover{
+
+color: $Blue;
+
+}
+
+.navBar a{
+    color: white;
+    
+    
+}
+
+
+/* Estilos para el input con clase "Search" */
+.Search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Search input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 250px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .Search input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .Search button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .Search button:hover {
+    background-color: $Orange;
+    color: white;
+  }
+  /* FINALIZA Estilos para el input con clase "Search" */
+
+
+ .Htext{
+
+    margin: 10px 30px;
+    text-align: justify;
+ }
+
+
+ section div h3{
+
+    text-align: center;
+    margin: 20px;
+    text-decoration:overline;
+
+ }
+
+ section div p{
+
+    font-size: 20px;
+
+ }
+
+
+
+  /*CAROUSEL*/
+
+  .customCar{
+    width: auto;
+    margin: 4em;
+    
+  }
+  
+
+
+
+ div h1{
+
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+div h3{
+
+    color: white
+}
+
+body{
+    margin: auto;
+    padding: auto;
+    background-color: $Blue;
+    box-sizing: border-box;
+
+    
+}
+
+.logo1{
+
+    width: 180px;
+    height: 110px;
+    
+}
+
+
+.borderContent{
+
+    background-color: $Orange;
+    width: 14em;
+    height: 2em;
+    text-align: center;
+    border-radius: 16px;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    border: solid rgb(184, 184, 184);
+}
+
+
+.borderContent:hover{
+
+    color: $Orange;
+    background-color: white;
+
+}
+header {
+
+    display: flex;
+    justify-content: space-around;
+    background-color: $Blue;
+    color: white;
+    height: 100px;
+    
+}

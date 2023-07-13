@@ -1,0 +1,200 @@
+@import "_vars";
+@import "_nav";
+@import "_mediaqueries";
+@import "_footer";
+
+
+//productos//
+
+
+
+.products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5em;
+}
+
+.products figure{
+    color: white;
+        width: 26%;
+        height: auto;
+        border: solid grey;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+        font-size: 1em;
+        text-align: center;
+}
+
+.products figure figcaption{
+
+    padding: 0 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.imgProduct{
+
+    width: 8rem;
+}
+
+.products figure button{
+
+    padding: 0.5em;
+    border-radius: 2em;
+    margin-bottom: 15px;
+    background-color: rgb(216, 125, 20) ;
+    color: white;
+}
+
+//filters for products
+
+.filters{
+
+    float: left;
+}    
+.filtList a{
+
+    text-decoration: none;
+    color: #fbfbfb;
+
+}
+
+
+ul{
+
+    list-style: none;
+}
+
+.filters a:hover{
+    color: rgb(216, 125, 20);
+}
+
+select{
+
+    display: flex;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 1em;
+    background-color: rgb(216, 125, 20);
+    color: #fbfbfb;
+    margin-left: 20px;
+}
+
+span{
+    margin-left: 20px;
+    color: white;
+}
+
+
+
+//form
+
+
+form{
+    width: 40%; 
+  height: 30%;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 30px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+  border-color: rgb(216, 125, 20) ;
+  border-style: solid;
+  display: flex;
+  
+}
+
+
+
+form label, input{
+
+    text-align: left;
+    display: flex;
+
+
+}
+
+label{
+
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+
+ input{
+
+    border-radius: 26px;
+    border: solid;
+    margin-top: 5px;
+
+}
+
+.form{
+
+    width: 20rem;
+    
+}
+
+
+.maps{
+
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items:center;
+    
+
+}
+
+.formTitle{
+margin: 1rem auto;
+color: rgb(51, 49, 77) ;
+
+}
+
+.description{
+
+    font-size: 15px;
+    color: rgb(51, 49, 77)
+}
+ 
+
+
+.headerLocation{
+
+    margin: 2rem auto;
+    color: rgb(51, 49, 77)
+}
+
+.rowForm{
+
+    display: flex;
+
+}
+
+*{
+    margin: auto;
+    padding: auto;
+    font-style:inherit ;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif
+}
+
+
+.cleanVid{
+
+    width: 500px;
+    height: 300px;
+    margin: 10px 10px;
+    
+
+    
+    
+
+
+}

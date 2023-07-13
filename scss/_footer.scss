@@ -1,0 +1,73 @@
+footer{
+
+    margin-top: 200px;
+     background-color: rgb(168, 92, 4) ;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     box-sizing: border-box
+   
+     
+ }
+ 
+ 
+ .socialsLogo{
+     height: 20px;
+     width: 20px;
+     list-style: none;
+     text-decoration: none;
+     color: #fbfbfb;
+     
+ }
+ 
+ 
+ .socials{
+     color: white;
+ }
+ 
+ .socials ul{
+ 
+     list-style: none;
+     text-align: center;
+ }
+ 
+ .socials a{
+     
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .Sponsors h2, p{
+ 
+     color: white;
+     margin: 0;
+ 
+ }
+ 
+ .Sponsors h2{
+ 
+     margin-bottom: 20px;
+ }
+ 
+ .Sponsors img{
+ 
+     margin-left: 100px;
+     margin-bottom: 10px;
+ }
+ 
+ .contact  h2{
+ 
+     color: white;
+     text-align: center;
+ }
+ 
+ .contact a{
+     text-decoration: none;
+ }
+ 
+ .contact ul{
+ 
+     list-style: none;
+     text-align: center;
+ }
+ 
